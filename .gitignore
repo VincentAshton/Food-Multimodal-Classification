@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyTorch
+*.pth
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Output figures
+outputs/figures/
+
+# Cache
+.cache/
+
+# Dataset images
+data/**/images/
+
+# Windows
+Thumbs.db
+.DS_Store

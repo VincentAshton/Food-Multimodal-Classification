@@ -1,0 +1,27 @@
+MultimodalModel Test Evaluation
+Device: cuda
+Checkpoint: D:\03_Projects\00_JLU_Courses\DL\CurriculumDesign\Food_Multimodal\outputs\checkpoints\multimodal_best.pth
+Test samples: 90
+Vocab size: 701
+test_loss: 0.222477
+test_acc: 0.922222
+
+Per-class precision/recall/f1-score:
+                precision     recall   f1-score    support
+         baozi     0.9474     1.0000     0.9730         18
+       cupcake     0.8667     0.7222     0.7879         18
+  french_fries     0.9444     0.9444     0.9444         18
+          rice     0.9474     1.0000     0.9730         18
+       youtiao     0.8947     0.9444     0.9189         18
+
+      accuracy                           0.9222         90
+     macro avg     0.9201     0.9222     0.9194         90
+  weighted avg     0.9201     0.9222     0.9194         90
+Confusion matrix:
+Rows=true labels, columns=predicted labels
+Labels: baozi, cupcake, french_fries, rice, youtiao
+[18, 0, 0, 0, 0]
+[1, 13, 1, 1, 2]
+[0, 1, 17, 0, 0]
+[0, 0, 0, 18, 0]
+[0, 1, 0, 0, 17]
